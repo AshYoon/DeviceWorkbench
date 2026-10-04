@@ -1,0 +1,41 @@
+# Visual Studio and local user settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+artifacts/
+TestResults/
+*.log
+
+# Restored packages and machine-local tools
+packages/
+.packages/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.local.json
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+Thumbs.db
+Desktop.ini

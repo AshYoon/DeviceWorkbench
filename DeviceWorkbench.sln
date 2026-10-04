@@ -1,0 +1,29 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceWorkbench.Desktop", "src\DeviceWorkbench.Desktop\DeviceWorkbench.Desktop.csproj", "{D811770C-1394-40ED-8A58-46BE9B7D68DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceWorkbench.Bridge", "src\DeviceWorkbench.Bridge\DeviceWorkbench.Bridge.vcxproj", "{F10C788A-B557-4F3B-A973-057013E93771}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceWorkbench.Native", "src\DeviceWorkbench.Native\DeviceWorkbench.Native.vcxproj", "{88CFD110-25F3-4AC8-A58C-1CF742947B47}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|x64 = Debug|x64
+        Release|x64 = Release|x64
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {D811770C-1394-40ED-8A58-46BE9B7D68DD}.Debug|x64.ActiveCfg = Debug|x64
+        {D811770C-1394-40ED-8A58-46BE9B7D68DD}.Debug|x64.Build.0 = Debug|x64
+        {D811770C-1394-40ED-8A58-46BE9B7D68DD}.Release|x64.ActiveCfg = Release|x64
+        {D811770C-1394-40ED-8A58-46BE9B7D68DD}.Release|x64.Build.0 = Release|x64
+        {F10C788A-B557-4F3B-A973-057013E93771}.Debug|x64.ActiveCfg = Debug|x64
+        {F10C788A-B557-4F3B-A973-057013E93771}.Release|x64.ActiveCfg = Release|x64
+        {88CFD110-25F3-4AC8-A58C-1CF742947B47}.Debug|x64.ActiveCfg = Debug|x64
+        {88CFD110-25F3-4AC8-A58C-1CF742947B47}.Release|x64.ActiveCfg = Release|x64
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+EndGlobal
